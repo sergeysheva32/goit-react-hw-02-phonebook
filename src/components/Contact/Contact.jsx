@@ -1,15 +1,11 @@
 import PropTypes from 'prop-types';
 import css from './Contact.module.css';
-// import { FaTrash, FaUserAlt } from 'react-icons/fa';
 
 function Contact({ name, number, onDeleteContact, contactId }) {
   return (
     <>
       <div className={css.container}>
       <div>
-        <span>
-          {/* <FaUserAlt /> */}
-        </span>
         <p className={css.name}>{name}: </p>
       </div>
       <div>
